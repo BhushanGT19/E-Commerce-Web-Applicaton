@@ -42,7 +42,7 @@ download project using git clone
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/MaratheHarshad/e-commerce
+git clone https://github.com/BhushanGT19/E-Commerce-Web-Applicaton
 
 ```
 
@@ -164,9 +164,3 @@ Once all services are running, you can access the Book Charm application by navi
 
 - Ensure that backend services are running before starting the frontend.
 - Make sure all necessary dependencies are installed and configured before starting each service.
-
-## Documentation
-
-Cloud Database Hosting (https://aiven.io/)
-
-Book Charm utilizes a cloud-based database hosting service provided by Aiven. This means that our database is hosted on Aiven's platform rather than on-premises servers.
