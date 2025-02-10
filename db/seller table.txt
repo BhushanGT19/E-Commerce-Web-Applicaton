@@ -1,0 +1,11 @@
+CREATE TABLE Seller (
+    sellerId INT AUTO_INCREMENT PRIMARY KEY,
+    productsCount INT,
+    firstName VARCHAR(255),
+    lastName VARCHAR(255),
+    panNumber VARCHAR(20),
+    mobileNumber VARCHAR(15),
+    email VARCHAR(255),
+    password VARCHAR(255),
+    address INT
+);

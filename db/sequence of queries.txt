@@ -1,0 +1,5 @@
+admin table
+seller table
+category table
+products table
+

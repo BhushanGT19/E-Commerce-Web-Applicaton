@@ -1,0 +1,4 @@
+CREATE TABLE Categories (
+    categoryId INT AUTO_INCREMENT PRIMARY KEY,
+    categoryType VARCHAR(255)
+);

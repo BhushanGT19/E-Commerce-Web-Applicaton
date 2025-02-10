@@ -1,0 +1,6 @@
+- host images on cloud platform (currently images located in products folder in backend/myapp-backend)
+- make use of react loaders librarry
+- build ci/cd pipeline
+- testing
+- enhancement of code
+- build more functionality

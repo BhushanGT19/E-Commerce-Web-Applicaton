@@ -1,0 +1,15 @@
+CREATE TABLE Products (
+    productId INT AUTO_INCREMENT PRIMARY KEY,
+    productName VARCHAR(255),
+    productPrice DECIMAL(10, 2),
+    productDescription TEXT,
+    productImage VARCHAR(255),
+    stockQuantity INT,
+    categoryId INT,
+    sellerId INT,
+    viewsCount INT,
+    author VARCHAR(255),
+    isbn VARCHAR(20),
+    FOREIGN KEY (categoryId) REFERENCES Categories(categoryId),
+    FOREIGN KEY (sellerId) REFERENCES Seller(sellerId)
+);
